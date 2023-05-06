@@ -19,7 +19,7 @@
 
 Aside of handling input, this code does almost nothing!
 
-This is the minimum effort possible to arrive at a consistent response to arbitrary input: Using the input as part of seeding the Pseudo Random Number Generator (PRNG). To do this, the user input is 1) converted to lowercase 2) base64 encoded and 3) converted to an integer that can be fed to random.seed. 
+This is the minimum effort possible to arrive at a random but consistent response to arbitrary input: Using the input as part of seeding the Pseudo Random Number Generator (PRNG). To do this, the user input is 1) converted to lowercase 2) base64 encoded and 3) converted to an integer that can be fed to random.seed. 
 
   random.seed(int.from_bytes(base64.b64encode(sys.argv[1].lower().encode()), byteorder='big'))
 
