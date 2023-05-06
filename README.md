@@ -4,11 +4,12 @@
 # Example (quotes are required)
 
 ./yesno "Am I cute?"
-
+  Yes
 ./yesno "Is this clever?"
-
+  No
 ./yesno "Pineapple on pizza?"
-
+  No
+  
 # Explanation
 
 Aside of handling input, this code does almost nothing!
@@ -25,3 +26,6 @@ PS: Rather than bothering with "if" statements, a coin is just flipped to choose
   aNswers = ["Yes", "No"];
   (...)
   print (aNswers[random.randint(0,1)])
+
+# Disclaimer
+I like pineapple on pizza.
