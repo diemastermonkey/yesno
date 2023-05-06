@@ -29,7 +29,9 @@ That means the same input string will produce the same answer, everytime, foreve
 PS: Rather than bothering with "if" statements, a coin is just flipped to choose an answer from the "aNswers" array. ;)
 
   aNswers = ["Yes", "No"];
+  
   (...)
+  
   print (aNswers[random.randint(0,1)])
 
 # Disclaimer
