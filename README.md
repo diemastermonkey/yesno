@@ -1,2 +1,2 @@
 # yesno
-8 Line Python Answers Questions Consistently With Simple Procedural Generation Trick
+8 Lines of Python Answers Any Question Consistently With Simple Procedural Generation Trick
