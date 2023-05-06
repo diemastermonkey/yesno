@@ -4,10 +4,15 @@
 # Example (quotes are required)
 
 ./yesno "Am I cute?"
+
   Yes
+  
 ./yesno "Is this clever?"
+
   No
+  
 ./yesno "Pineapple on pizza?"
+
   No
   
 # Explanation
