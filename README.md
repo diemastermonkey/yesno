@@ -1,5 +1,5 @@
 # yesno
-8 lines answers any question consistently with this one simple Procedural Generation trick
+6 lines answers any question consistently with this one simple Procedural Generation trick
 
 # Example (quotes are required)
 
