@@ -4,7 +4,9 @@
 # Example (quotes are required)
 
 ./yesno "Am I cute?"
+
 ./yesno "Is this clever?"
+
 ./yesno "Pineapple on pizza?"
 
 # Explanation
