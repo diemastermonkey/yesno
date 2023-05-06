@@ -19,14 +19,14 @@
 
 Aside of handling input, this code does almost nothing!
 
-This is the minimum effort possible to arrive at a random but consistent response to arbitrary input: Using the input as part of seeding the Pseudo Random Number Generator (PRNG). To do this, the user input is 1) converted to lowercase 2) base64 encoded and 3) converted to an integer that can be fed to random.seed. 
+This may be the lowest-effort method to generate random but consistent responses to arbitrary input: Using the input as part of seeding a Pseudo Random Number Generator (PRNG). Here, the user input is 1) converted to lowercase 2) base64 encoded and 3) converted to an integer that can be fed to random.seed. 
 
   random.seed(int.from_bytes(base64.b64encode(sys.argv[1].lower().encode()), byteorder='big'))
 
-Once seeded with value X, Python's PRNG will generate the same "random" values in the same order.
-That means the same input string will produce the same answer, everytime, forever. Kinda cool huh.
+Seeded with value X, Python's PRNG will generate the same "random" values in the same order, every time.
+That means the same input string will produce the same answer always, forever. Kinda cool huh. The PRNG has an opinion on pineapple. ;)
 
-PS: Rather than bothering with "if" statements, a coin is just flipped to choose an answer from the "aNswers" array. ;)
+PS: Rather than bothering with "if" statements, we just flip a coin to choose from the "aNswers" array. ;)
 
   aNswers = ["Yes", "No"];
   
